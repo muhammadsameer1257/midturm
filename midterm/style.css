@@ -1,0 +1,402 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    background: #E4C6CA;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+}
+ a{
+    text-decoration: none;
+    color:gray;
+    font-size: 0.80em;
+}
+.nav i{
+    font-size: 1.25em;
+    color: gray;
+}
+.left{
+    display: flex;
+    gap: 25px;
+}
+.bar{
+    display: none;
+}
+.header{
+    padding: 0px 10%;
+    border: 1px solid;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-h img{
+    width: 300px;
+    height: 50px;
+}
+li {
+    list-style: none;
+
+}
+.right-h{
+    display: flex;
+    gap: 25px;    
+}
+
+            
+
+
+.cart1{
+    width: 450px;
+    height: 585px;
+    background-image: url(assest/dress1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: scroll;
+    
+}
+
+.cart2{
+    width: 450px;
+    height: 585px;
+    background-image: url(assest/dress2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: scroll;
+    
+}
+
+.cart3{
+    width: 450px;
+    height: 585px;
+    background-image: url(assest/dress3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: scroll;
+
+    
+} 
+
+.padding{
+    padding-top: 60%
+}
+
+.padding2{
+    padding-top: 82%;
+}
+
+
+.para{
+    padding: 20px;
+    /* height: 40%; */
+    background-color: rgba(228, 198, 202,70% ) ;
+
+}
+.para h2{
+    font-size: 3em;
+    font-family: serif;
+    font-weight: lighter  ;
+}
+.dresses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.post-head{
+    margin: 25px auto;
+    width: fit-content;
+}
+
+.post{
+    background: #F3ECE9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    flex-wrap: wrap;
+
+}
+.post1{
+    background-image: url(assest/s.webp);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.post2{
+    background-image: url(assest/post1.webp);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.post3{
+    background-image: url(assest/story2.webp);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.post4{
+    background-image: url(assest/story4.webp);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.post5{
+    background-image: url(assest/story5.webp);
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.posts-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.posts-img > li{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    border: none;
+}
+.by{
+    font-family: "Great Vibes", cursive;
+    font-size: 35px;
+    font-weight: 800;
+}
+.heading-p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-main{
+    background: rgb(108,84,86);
+    background: linear-gradient(90deg, rgba(108,84,86,1) 20%, rgba(86,65,64,1) 100%);
+    padding: 10% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+}
+.form > input , button{
+    width: 450px;
+    height: 50px;
+
+}
+.form-dis{
+    width: 250px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    background: #C4B3A7;
+    color: white;
+    border: none;
+}
+.hero{
+    background: #E8D8D8;
+    width: 90%;
+    height: 700px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.hero-img img{
+  width: 100%;
+  height: 700px;
+}
+.hero-dis{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    gap: 25px;
+    font-size: 1.25em;
+    line-height: 2em;
+
+
+}
+
+.hero-dis > button{
+    background: #32373C;
+    border-radius:25px ;
+    width: 200px;
+
+}
+
+.pattern{
+    background: #F3ECE9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    /* width: ; */
+    height: 700px;
+
+}
+.pattern > img{
+    /* padding: 50px 0px; */
+    width: 35%;
+    height: 90%;
+
+}
+
+
+.service{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.s-btn{
+    background:#8B7479;
+    width: 60%;
+    position: absolute;
+    bottom: 0px;
+    left:70px;
+}
+
+.service1{
+    background-image: url(assest/service1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;   
+    position: relative;
+}
+
+.service2{
+    background-image: url(assest/service2webp.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;   
+    position: relative;
+}
+.service3{
+    background-image: url(assest/service4.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;   
+    position: relative;
+}
+.service4{
+    background-image: url(assest/service3.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;   
+    position: relative;
+}
+
+.footer{
+    background: #F3ECE9;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.f-logo img{
+        width: 400px;
+
+  }
+
+  .f-logo{
+    padding: 25px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+  }
+  .left1 > i {
+    font-size: 2.5em;
+    padding: 5px;
+  }
+  .follow{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  @media only screen and (max-width: 1150px) {
+
+.hero{
+    /* display: flex; */
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+}
+@media only screen and (max-width: 1050px) {
+
+.right-h{
+    display: none;
+}
+.bar{
+    display: block;
+    font-size: 20px
+}
+
+.footer{
+    flex-direction: column;
+    gap: 55px;
+
+}
+.post{
+    justify-content: center;
+}
+
+}
